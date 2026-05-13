@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        My First Web Page
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="Sharan logo" src="https://i.imgur.com/m1wXjqw.png" height="30">
+    </div>
+    <img id="banner" src="career.jpg" alt="banner" height="250">
+    <h1>ABOUT SHARAN</h1>
+    <div id="about">
+        <div id="description">
+            <P style="margin-top: 0%;">At Jovian, we're on a mission to build
+                the world's most highly reputed technical
+                university, and we're building completely
+                online. We offer several beginner friendly
+                courses that are taken by 300,000+ registered
+                users. </P>
+            <P>
+                We also offer 2 industry-focused bootcamps:
+            <oL>
+                <li>
+                    <a href="https://jovian.com/learn/web-development-with-html-and-css" target="_blank">
+                        Sharan Data Science Bootcamp
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://jovian.com/learn/zero-to-data-analyst-bootcamp" target="_blank">
+
+                        Sharan Data Science Bootcamp
+                    </a>
+                </li>
+            </OL>
+            </P>
+
+        </div>
+        <div id="image">
+            <img id="team-image" src="team.jpg">
+        </div>
+    </div>
+
+
+
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted on</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Fronted DEVELOPER</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>₹12,00,000</td>
+                <td>Mar 3, 2023</td>
+            </tr>
+
+            <tr class="jobs-data-row">
+                <td>FULLSTACK DEVELOPER</td>
+                <td>Dhaka </td>
+                <td>Bangladesh</td>
+                <td>12,00,000k</td>
+                <td>Mar 3, 2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>ML ENGNIEER</td>
+                <td>Chittagong </td>
+                <td>Bangladesh</td>
+                <td>12,00,000k</td>
+                <td>Mar 3, 2023</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+
+                <td colspan="2">Remote</td>
+                <td>12,00,000k</td>
+                <td>Mar 3, 2023</td>
+            </tr>
+        </table>
+    </div>
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <form 
+            id="application-form" 
+            action="https://formbold.com/s/3VKnd"
+            method="post"
+            enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="Emon">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email Address" required placeholder="Sharan@emon.com">
+
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="+919898989898">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+
+                <label for="position">Position Applied for</label><br>
+                <select id="Position" name="Position Applied" required>
+                    <option value="">Selecr Position</option>
+                    <option value="fronted developer">Fronted Developer</option>
+                    <option value="full stack developer">Fullstack Developer</option>
+                    <option value="data scientist">Data Scientist</option>
+                    <option value="ml engnieer">ML ENGNIEER</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=". pdf,.doc,.docx" required>
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="5"
+                    placeholder="Explain what makes you suitable for the job.... "></textarea>
+
+
+
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+
+    </div>
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">
+                    COURSES
+                </a>
+            </li>
+            <li>
+                <a href="https://jovian.com/learn" target="_blank">
+                    PROGRAMS
+                </a>
+            </li>
+            <LI>
+                <a href="https://YOUTUBE.com/@jovianhq" target="_blank">
+                    YOUTUBE
+                </a>
+            </LI>
+        </ul>
+
+        <SPAN class="copyright">
+            © 2023, JOVIAN
+        </SPAN>
+    </div>
+</body>
+
+</html>
